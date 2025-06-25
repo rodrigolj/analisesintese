@@ -19,11 +19,3 @@ um tanque de guerra de brinquedo. Ao juntar os esquis, o casco e o leme do barco
 os guidons da bicicleta e as correntes do tanque de guerra, temos esse novo
 veículo, perfeito para mover uma pessoa em alta velocidade pelor terrenos
 cobertos por neve.
-
-Meu nome é Rodrigo, sou consultor e programador. Esta página tem como símbolo
-o jetski, como uma homenagem ao snowmobile de Boyd, apenas unindo os domínios de
-um barco e de uma motocicleta. A intenção deste site é fomentar uma forma
-diferente de pensar sobre os atuais acontecimentos do mundo dentro daquilo que
-aprendi e que posso contribuir. Existem vários lugares na internet para observar
-acontecimentos, mas poucos para fazer sentido deles. Sem isso, não sabemos
-sequer se devemos reagir ou não ao que ocorre na nossa frente.
