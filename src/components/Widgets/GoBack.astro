@@ -16,21 +16,17 @@ import GoBackIcon from '@/assets/icons/go-back.svg';
 
 <!-- Go Back Script >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
 <script>
-function setupBackButton() {
-  document.getElementById('back-button')?.addEventListener('click', () => {
+document.addEventListener('click', (e) => {
+  const target = e.target as HTMLElement
+  const backButton = target?.closest('#back-button')
+  if (backButton) {
     if (window.history.length > 1) {
       window.history.back()
     }
     else {
-      // Click site title link to trigger view transition when no history
-      const titleLink = document.getElementById('site-title-link') as HTMLAnchorElement
-      if (titleLink) {
-        titleLink.click()
-      }
+      const titleLink = document.getElementById('site-title-link')
+      titleLink?.click()
     }
-  })
-}
-
-setupBackButton()
-document.addEventListener('astro:page-load', setupBackButton)
+  }
+})
 </script>
