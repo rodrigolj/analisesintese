@@ -5,7 +5,7 @@ lang: 'pt'
 description: ""
 ---
 
-![Ciclo OODA](https://rodrigolj.files.wordpress.com/2012/04/ciclo-ooda-completo1.png)
+![Ciclo OODA](../../assets/images/ciclo-ooda-completo.png)
 
 ## O que é?
 
